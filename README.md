@@ -34,25 +34,5 @@ For any questions, suggestions, or issues, feel free to contact ANONYMOUS_MODZ.
 
 **Contributing**
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+Contributions are welcome! If you'd like to contribute to this project, please 
 
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/my-feature).
-3. Make your changes.
-4. Commit your changes (git commit -am 'Add new feature').
-5. Push to the branch (git push origin feature/my-feature).
-6. Create a new Pull Request.
-
-**License**
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-**Disclaimer**
-
-This script is for educational purposes only. Downloading copyrighted content from YouTube may violate the platform's terms of service and copyright laws in your country. Use this script responsibly and ensure that you have the necessary permissions to download and use the content.
-
-By using this script, you agree not to hold the script creator or contributors liable for any misuse or copyright infringement.
-
-**Acknowledgements**
-
-Special thanks to the developers of the pytube library for providing a simple and powerful way to interact with YouTube content programmatically.
