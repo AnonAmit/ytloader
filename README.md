@@ -10,12 +10,13 @@ A Python script to download videos, playlists, and channels from YouTube using t
 - *Download Channel*: Enter the URL of a YouTube channel to download all playlists associated with the channel.
 
 **Installation**
-
+```bash
    git clone [repo-link]
+   
    pip install -r requirements.txt
+   
    python yt.py
-
-
+```
 **Usage**
 
 1. Select the desired option from the menu.
