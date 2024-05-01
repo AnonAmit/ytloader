@@ -1,3 +1,24 @@
+import os
+import subprocess
+
+def install_dependencies():
+    required_packages = ['pytube', 'tqdm', 'colorama']
+    installed_packages = [package.split('==')[0] for package in os.popen('pip list').read().split('\n')[2:-1]]
+
+    missing_packages = [package for package in required_packages if package not in installed_packages]
+
+    if missing_packages:
+        print(f"{Fore.YELLOW}Installing missing dependencies...{Fore.RESET}")
+        for package in missing_packages:
+            subprocess.run(['pip', 'install', package])
+        print(f"{Fore.GREEN}Dependencies installed successfully!{Fore.RESET}")
+    else:
+        print(f"{Fore.GREEN}All required dependencies are already installed.{Fore.RESET}")
+
+# Call the function to install dependencies
+install_dependencies()
+
+# Rest 
 from pytube import Playlist, YouTube
 import os
 from tqdm import tqdm
