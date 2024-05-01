@@ -25,7 +25,7 @@ A Python script to download videos, playlists, and channels from YouTube using t
 
 **Credits**
 
-- This script is created by ANONYMOUS_MODZ.
+- This script is created by TG:ANONYMOUS_AMIT.
 - It utilizes the pytube library for downloading YouTube content.
 
 **Support**
