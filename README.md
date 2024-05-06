@@ -49,6 +49,15 @@ YouTube Downloader is a Python script that allows you to download videos, playli
    
 5. Enter the corresponding URL when prompted.
 
+## Downloading a YouTube Channel
+To download content from a YouTube channel, you'll need the channel's ID. Follow these steps to obtain the channel ID:
+
+1. Go to the YouTube Channel ID Finder.
+2. Enter the URL of the YouTube channel you want to download content from (e.g., https://www.youtube.com/@Anonymous_Amit).
+3. Click on the "Get Channel ID" button.
+4. Copy the generated channel ID, which will typically be in the format https://www.youtube.com/channel/UC1YPqg1KPgZoZ9akpCfsAWw.
+Use the copied channel ID when prompted for the channel URL in the downloader script.
+
 ## How to Get YouTube Data API Key
 
 To use the YouTube Data API and access features like fetching playlists and channel information, you need to obtain an API key from the Google Cloud Console. Follow these steps to get your API key:
