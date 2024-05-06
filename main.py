@@ -98,7 +98,6 @@ def download_channel(channel_url):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-
 def main():
     print(Fore.YELLOW + logo)
     print(Fore.CYAN + "Welcome to YouTube Downloader!")
@@ -116,6 +115,18 @@ def main():
             url = input("Enter the playlist URL: ")
             download_playlist(url, os.getcwd())
         elif choice == '3':
+            print(Fore.YELLOW + """
+## Downloading a YouTube Channel
+
+To download content from a YouTube channel, you'll need the channel's ID. Follow these steps to obtain the channel ID:
+
+1. Go to the [YouTube Channel ID Finder](https://commentpicker.com/youtube-channel-id.php).
+2. Enter the URL of the YouTube channel you want to download content from (e.g., `https://www.youtube.com/@Anonymous_Amit`).
+3. Click on the "Get Channel ID" button.
+4. Copy the generated channel ID, which will typically be in the format `https://www.youtube.com/channel/UC1YPqg1KPgZoZ9akpCfsAWw`.
+
+5. Use the copied channel ID URL when prompted for the channel URL in the downloader script.
+""")
             url = input("Enter the channel URL: ")
             download_channel(url)
         elif choice == '4':
@@ -126,4 +137,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
