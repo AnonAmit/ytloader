@@ -1,7 +1,7 @@
 
-# YouTube Downloader
+# YTLOADER 
 
-YouTube Downloader is a Python script that allows you to download videos, playlists, and channels from YouTube using the YouTube Data API.
+YTLOADER is a Python script that allows you to download videos, playlists, and channels from YouTube using the YouTube Data API.
 
 ## Features
 
