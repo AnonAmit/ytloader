@@ -1,38 +1,68 @@
-YouTube Downloader
-==================
 
-A Python script to download videos, playlists, and channels from YouTube using the pytube library.
+# YouTube Downloader
 
-**Features**
+YouTube Downloader is a Python script that allows you to download videos, playlists, and channels from YouTube using the YouTube Data API.
 
-- *Download Single Video*: Enter the URL of a YouTube video to download it.
-- *Download Playlist*: Enter the URL of a YouTube playlist to download all videos in the playlist.
-- *Download Channel*: Enter the URL of a YouTube channel to download all playlists associated with the channel.
+## Features
 
-**Installation**
-```bash
-   git clone [repo-link]
-   
+- Download individual videos by providing the video URL.
+- Download entire playlists by providing the playlist URL.
+- Download all playlists from a YouTube channel by providing the channel URL.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AnonAmit/ytloader
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd ytloader
+   ```
+
+3. Install dependencies using pip:
+
+   ```bash
    pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Ensure you have obtained a YouTube Data API key. See the section below on how to get your API key.
    
-   python yt.py
+2. Update the `config.py` file with your YouTube Data API key:
+
+   ```python
+   YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY_HERE"
+   ```
+
+3. Run the `main.py` script:
+
+   ```bash
+   python main.py
+   ```
+
+4. Choose the desired download option (video, playlist, or channel).
+   
+5. Enter the corresponding URL when prompted.
+
+## How to Get YouTube Data API Key
+
+To use the YouTube Data API and access features like fetching playlists and channel information, you need to obtain an API key from the Google Cloud Console. Follow these steps to get your API key:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project (or select an existing one) from the top menu.
+3. In the sidebar, navigate to "APIs & Services" > "Credentials".
+4. Click on "Create credentials" and select "API key".
+5. Copy the generated API key.
+6. Paste the API key into the `config.py` file in the `YOUTUBE_API_KEY` variable.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-**Usage**
 
-1. Select the desired option from the menu.
-2. Enter the URL of the video, playlist, or channel as prompted.
-3. The script will download the content accordingly.
-
-**Credits**
-
-- This script is created by TG:ANONYMOUS_AMIT.
-- It utilizes the pytube library for downloading YouTube content.
-
-**Support**
-
-For any questions, suggestions, or issues, feel free to contact ANONYMOUS_MODZ.
-
-**Contributing**
-
-Contributions are welcome! If you'd like to contribute to this project, please 
-
+Make sure to replace `"YOUR_YOUTUBE_API_KEY_HERE"` with your actual YouTube Data API key in the `config.py` file. This `README.md` provides clear instructions on how to install and use your YouTube Downloader script and includes a section on obtaining the YouTube Data API key.
