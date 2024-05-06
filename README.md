@@ -31,9 +31,9 @@ YouTube Downloader is a Python script that allows you to download videos, playli
 
 ## Usage
 
-1. Ensure you have obtained a YouTube Data API key. See the section below on how to get your API key.
+1. Ensure you have obtained a [YouTube Data API key]((https://github.com/AnonAmit/ytloader/blob/main/README.md#how-to-get-youtube-data-api-key)). See the section below on how to get your API key.
    
-2. Update the `config.py` file with your [YouTube Data API key](https://github.com/AnonAmit/ytloader/blob/main/README.md#how-to-get-youtube-data-api-key):
+2. Update the `config.py` file with your [YouTube Data API key]:
 
    ```python
    YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY_HERE"
