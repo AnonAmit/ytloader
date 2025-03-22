@@ -72,6 +72,4 @@ To use the YouTube Data API and access features like fetching playlists and chan
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-Make sure to replace `"YOUR_YOUTUBE_API_KEY_HERE"` with your actual YouTube Data API key in the `config.py` file. This `README.md` provides clear instructions on how to install and use your YouTube Downloader script and includes a section on obtaining the YouTube Data API key.
